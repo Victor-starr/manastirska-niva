@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Phone -->
+    <link rel="stylesheet" href="css/phone/phone_skely.css">
+    <link rel="stylesheet" href="css/phone/phone_sec1.css">
+    <link rel="stylesheet" href="css/phone/phone_sec2.css">
+    <link rel="stylesheet" href="css/phone/phone_sec3.css">
+    <link rel="stylesheet" href="css/phone/phone_sec4.css">
+    <link rel="stylesheet" href="css/phone/phone_sec5.css">
+    <link rel="stylesheet" href="css/phone/phone_sec6.css">
+    <!-- PC -->
+    <link rel="stylesheet" href="css/pc/pc_skely.css">
+    <link rel="stylesheet" href="css/pc/pc_sec1.css">
+    <link rel="stylesheet" href="css/pc/pc_sec2.css">
+    <link rel="stylesheet" href="css/pc/pc_sec3.css">
+    <link rel="stylesheet" href="css/pc/pc_sec4.css">
+    <link rel="stylesheet" href="css/pc/pc_sec5.css">
+    <link rel="stylesheet" href="css/pc/pc_sec6.css">
+    <title>BG/GR</title>
+</head>
+<body onload="loader()">
+    <div class="loader">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="249" height="249" style="shape-rendering: auto; display: block; background: rgba(255, 255, 255, 0);" xmlns:xlink="http://www.w3.org/1999/xlink"><g><circle stroke-linecap="round" fill="none" stroke-dasharray="39.269908169872416 39.269908169872416" stroke="#36af54" stroke-width="10" r="25" cy="50" cx="50">
+      <animateTransform values="0 50 50;360 50 50" keyTimes="0;1" repeatCount="indefinite" dur="1.3888888888888888s" type="rotate" attributeName="transform"></animateTransform>
+    </circle>
+    <circle stroke-linecap="round" fill="none" stroke-dashoffset="21.991148575128552" stroke-dasharray="21.991148575128552 21.991148575128552" stroke="#6aa9f8" stroke-width="10" r="14" cy="50" cx="50">
+      <animateTransform values="0 50 50;-360 50 50" keyTimes="0;1" repeatCount="indefinite" dur="1.3888888888888888s" type="rotate" attributeName="transform"></animateTransform>
+    </circle><g></g></g></svg>
+      </div>
+    <div id="blackOverlay"></div>
+    <nav>
+        <img src="img/logo.png" alt="" title="logo">
+        <i class="fa fa-globe" onclick="toggleLanguage()"></i>
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <i class="fa fa-bars" id="barsIcon"></i>
+            <i class="fa fa-close" id="closeIcon" style="display: none;"></i>
+        </div>
+    </nav>
+    <aside class="side-menu">
+        <ul class="aside-ul">
+            <li class="aside-main-li"><a href="#" id="element1"></a></li>
+            <li class="aside-main-li"><span><a href="#" id="element2"></a> <i class="fa fa-sort-down"></i></span>
+                <ul class="abt_small_secntion">
+                    <li><i class="dot">-</i> <a href="#sec3" id="element7"></a></li>
+                    <li><i class="dot">-</i> <a href="#sec4" id="element8"></a></li>
+                    <li><i class="dot">-</i> <a href="#sec5" id="element9"></a></li>
+                    <li><i class="dot">-</i> <a href="#sec6" id="element10"></a></li>
+                </ul>
+            </li>
+            <li class="aside-main-li"><span><a href="#" id="element3"></a> <i class="fa fa-sort-down"></i></span>
+                <ul class="cerf_small_secntion">
+                    <li><i class="dot">-</i> <a href="#" id="element11"></a></li>
+                    <li><i class="dot">-</i> <a href="#" id="element12"></a></li>
+                    <li><i class="dot">-</i> <a href="#" id="element13"></a></li>
+                </ul>
+            </li>
+            <li class="aside-main-li"><a href="contact.html" id="element4"></a></li>
+        </ul>
+        <p>Copyright (c) 2024 Манастирска Нива</p>
+    </aside>
+    <section class="holder">
+    <header id="sec1">
+        <div class="leftSide">
+            <img src="img/logo.png" alt="" title="logo">
+            <p id="element5"></p>
+            <h1 id="element6"></h1>
+        </div>
+        <div class="rightSide">
+            <img src="img/potato.jpg" alt="">
+        </div>
+    </header>
+    <section id="sec2">
+        <div class="box1">
+            <i class="fa fa-leaf"></i>
+            <h2 id="element14"></h2>
+            <p id="element15"></p>
+        </div>
+        <div class="box2">
+            <i class="fa fa-pie-chart"></i>
+            <h3 id="element16"></h3>
+            <p id="element17"></p>
+        </div>
+        <div class="box3">
+            <i class="fa fa-briefcase"></i>
+            <h4 id="element18"></h4>
+            <p id="element19"></p>
+        </div>
+    </section>
+    <section id="sec3">
+        <div class="title-box">
+            <img src="img/banner.png" alt="">
+            <h5 id="element20"></h5>
+        </div>
+        <div class="bottom-part">
+        <div class="sec3-left-side">
+            <img src="img/bg-map.png" class="map1">
+            <img class="map2" src="img/map.png" alt="">
+        </div>
+        <div class="sec3-right-side">
+            <h6 id="element21"></h6>
+            <p id="element22"></p>
+            <p id="element23"></p>
+            <p id="element24"></p>
+    </div>
+    </div>
+    </section>
+    <section id="sec4">
+        <div class="title-box">
+            <img src="img/banner.png" alt="">
+            <h5 id="element25"></h5>
+        </div>
+        <div class="bottom-part">
+        <div class="sec4-left-side">
+            <h6 id="element26"></h6>
+            <p id="element27"></p>
+            <p id="element28"></p>
+            <p id="element29"></p>
+        </div>
+        <div class="sec4-right-side">
+            <img src="img/farmTruck.jpg">
+    </div>
+    </div>
+    </section>
+    <section id="sec5">
+        <div class="title-box">
+            <img src="img/banner.png" alt="">
+            <h5 id="element30"></h5>
+        </div>
+        <div class="bottom-part">
+        <div class="sec5-left-side">
+            <img src="img/undraw1.png">
+        </div>
+       <div class="sec5-right-side">
+        <div class="hHolders">
+            <p id="element31" data-filter="mission">mission</p>
+            <p id="element32" data-filter="vision">vision</p>
+            <p id="element33" data-filter="competition">competition</p>
+            <p id="element34" data-filter="twenty">2024</p>
+        </div>
+        <div class="pHolder">
+            <p id="element35" class="mission"></p>
+            <p id="element36" class="mission"></p>
+            <p id="element37" class="mission"></p>
+            <p id="element38" class="vision"></p>
+            <p id="element39" class="vision"></p>
+            <p id="element40" class="competition"></p>
+            <p id="element41" class="competition"></p>
+            <p id="element42" class="competition"></p>
+            <p id="element43" class="twenty"></p>
+            <p id="element44" class="twenty"></p>
+        </div>
+    </div>
+    </div>
+    </section>
+    <section id="sec6">
+    <div class="title-box">
+        <img src="img/banner.png" alt="">
+        <h5 id="element45"></h5>
+    </div>
+    <div class="bottom-part">
+    <div class="sec6-left-side">
+        <img src="img/undraw2.png">
+    </div>
+   <div class="sec6-right-side">
+    <h6 id="element46"></h6>
+    <div class="hHolders">
+        <p id="element47" data-filter="part1"></p>
+        <p id="element48" data-filter="part2"></p>
+    </div>
+    <div class="pHolder">
+        <p id="element49" class="part1"></p>
+        <p id="element50" class="part1"></p>
+        <p id="element37" class="part1"></p>
+        <p id="element52" class="part1"></p>
+        <p id="element53" class="part1"></p>
+        <p id="element54" class="part1"></p>
+        <p id="element55" class="part2"></p>
+        <p id="element56" class="part2"></p>
+        <p id="element57" class="part2"></p>
+    </div>
+</div>
+</div>
+</section>
+<footer>
+    <p id="element58"></p>
+</footer>
+</section>
+    <div class="scrollup_btn">
+        <a href="#sec1" id="scrollUpButton"><i class="fa fa-chevron-up"></i></a>
+        </div>
+<script src="scripts/js/translation.js"></script>
+<script src="scripts/js/animation.js"></script>
+<script src="scripts/js/swichslidebutton.js"></script>
+<script type="module" src="scripts/firebase-init.js"></script>
+</body>
+</html>
